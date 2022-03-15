@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Omikuji{
 
 public static void main(String[] args){
-	 Scanner scan = new Scanner(System.in);
-     
-	 System.out.println("「おみくじ・着物日和」へようこそ！");
+   Scanner scan = new Scanner(System.in);
+   
+   System.out.println("「おみくじ・着物日和」へようこそ！");
    System.out.println("\n好きな単語を入れてみてください");
      
    String words = scan.nextLine();
