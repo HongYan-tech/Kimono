@@ -16,9 +16,9 @@ public static void main(String[] args){
    String[] kimono = {"紬","小紋","お召","付け下げ","銘仙","ウール","木綿"} ;
    
    Random rand = new Random();  
-	 int i = rand.nextInt(6);
-	 
-	 System.out.println("\n\n"+kimono[i] + "です！");
+   int i = rand.nextInt(6);
+   
+   System.out.println("\n\n"+kimono[i] + "です！");
      
    scan.close();
    }
